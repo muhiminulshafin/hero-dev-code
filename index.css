@@ -86,3 +86,53 @@ nav .menu li a {
     width: 500px;
     
 }
+.continer-about{
+    margin: 10px;
+    /* border:         1px solid red ; */
+}
+#about {
+    padding-top: 130px;
+}
+#about .continer-about{
+    width: 71% ;
+    max-width: 1140px ;
+    margin:     0 auto ;
+    text-align:     center ;
+    background-color: #FFF8F3;
+    padding: 131px 156px 131px 156px;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center ;
+    
+
+}
+.section-heading h2{
+    font-size: 35px;
+   margin-bottom: 30px;
+    color: #181818;
+    
+}
+.section-heading p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+#info-card{
+    display: flex ;
+    gap: 30px ;
+    justify-content: center ;
+}
+#about .continer-about .about-info
+{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    color: #757575 ;
+}
+.about-info .info-card h4{
+    font-size: 20px;
+    color: #181818 ;
+}
