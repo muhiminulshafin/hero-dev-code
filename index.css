@@ -86,19 +86,24 @@ nav .menu li a {
     width: 500px;
     
 }
+#skills , #resume #about{
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
 .continer-about{
     margin: 10px;
     /* border:         1px solid red ; */
 }
-#about {
-    padding-top: 130px;
-}
+
 #about .continer-about{
     width: 71% ;
     max-width: 1140px ;
-    margin:     0 auto ;
+    margin-top:     70px ;
+     margin-bottom: 0px ;
+     margin-left: auto ;
+     margin-right: auto ;
     text-align:     center ;
-    background-color: #FFF8F3;
+    background-color: #fdeee3;
     padding: 131px 156px 131px 156px;
 }
 .section-heading{
@@ -137,10 +142,7 @@ nav .menu li a {
     font-size: 20px;
     color: #181818 ;
 }
-#skills{
-    padding-top: 130px;
-    padding-bottom: 100px;
-}
+
 #skills .skills-container {
     width: 71% ;
     max-width: 1140px ;
@@ -168,5 +170,65 @@ nav .menu li a {
 .skill-card p{
     font-size: 16px;
     color: #757575 ;
+}
+
+#resume .resume-container {
+    width: 71% ;
+    max-width: 1140px ;
+    margin: 113px auto 0 ;
+    display: flex;
+    gap: 24px;
+
+}
+#resume .resume-container .section-title
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+    margin-top: 20px;
+
+}
+.resume-card .card-title{
+    font-size: 25px;
+    color: #474747;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume-card .card-description{
+    font-size: 16px;
+    color: #757575;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    line-height: 28px;
+
+}
+.download-cv {
+   background-color: #FD6E0A;
+    padding: 18px 35px;
+    color: white;
+    border: none ;
+    border-radius: 5px ;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    cursor:         pointer ;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-center{
+    text-align: center ;
 }
     
